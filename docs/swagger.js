@@ -8,10 +8,11 @@ const options = {
       version: "1.0.0",
       description: "Alpha- Error Logging and Monitoring API",
     },
-    servers: [
-      {
-        url: "http://localhost:3000",
-      },
+   servers: [
+  {
+    url: "https://bugscope.onrender.com",
+    description: "Production"
+  },
     ],
     components: {
       securitySchemes: {
