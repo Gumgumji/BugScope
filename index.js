@@ -26,6 +26,7 @@ const PORT = process.env.PORT || 3000;
 /* ================= MIDDLEWARES ================= */
 
 app.use(express.json());
+app.use(express.static("public"));
 app.use(helmet());
 
 // HTTP logging باستخدام Morgan → Winston
