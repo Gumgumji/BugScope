@@ -4,7 +4,7 @@ const options = {
   definition: {
     openapi: "3.0.0",
     info: {
-      title: "Mohammad's BugScope API",
+      title: "Gumgumji's BugScope API",
       version: "1.0.0",
       description: "Alpha- Error Logging and Monitoring API",
     },
